@@ -1,0 +1,84 @@
+/* ----- set mode -------- */
+.lightMode{
+    background-color: rgb(255, 255, 255);
+}
+.darkMode{
+    background-color: black;
+    color: white;
+}
+/* ----- End of setting mode -------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+   background-color: #081b31;
+   color: #ffff; 
+   height: 5rem;
+   line-height: 5rem;
+}
+/* ------- image and choices -------- */
+.choice{
+    border-radius: 50%;
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+/* ------- End of image and choices -------- */
+
+
+/* ------- score board and messages -------- */
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score{
+    font-size: 4rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+/* ------- End of score board and messages -------- */
+
